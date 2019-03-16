@@ -32,6 +32,23 @@ git commit -m "first commit"
 *para ver listado de cambios o commits
 
 git log 
+
+*descargar cambios a nuestro repositorio/cambios de equipo de trabajo
+git pull
+git pull origin maste
+
+*para subir los cambios a nuestro repo
+git push
+git push origin master
+
+* ver mis rutas remotas
+git remote show 
+git remote show origin
+
+*ver ramas de proyecto
+git branch
+
+
 ### Instalar Django
 ### Configurar un proyecto Django
 ### Crear Modelos
