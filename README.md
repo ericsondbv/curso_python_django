@@ -28,6 +28,10 @@ git add .   # para agregar todo desde la ruta actual en la que estoy
 * para guardar cambios
 
 git commit -m "first commit"
+
+*para ver listado de cambios o commits
+
+git log 
 ### Instalar Django
 ### Configurar un proyecto Django
 ### Crear Modelos
