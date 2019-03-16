@@ -45,8 +45,29 @@ git push origin master
 git remote show 
 git remote show origin
 
-*ver ramas de proyecto
+* listado de ramas de proyecto
 git branch
+* para crear rama
+    git branch sesion2
+* para cambiar de rama
+git checkout sesion2
+
+* para deshacer un cambio no agregado
+git checkout --archivo modificado.txt
+
+* para deshacer cambios ya agregado
+
+git reset HEAD archivomoficado.txt
+
+*ver lista de cambios
+
+git diff archivomodificado.txt
+
+*unir cambios de una rama a otra
+
+ir a la rama destino y ejecutar --
+git merge ramaorigen
+
 
 
 ### Instalar Django
